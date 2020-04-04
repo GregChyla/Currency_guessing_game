@@ -1,0 +1,9 @@
+<p>Enter PLN value for 1 EUR</p>
+<input type="number" #currency>
+<button (click)=checkCurrency(currency.value);>Check</button>
+<br>
+{{ result }}
+<br>
+<br>
+
+{{ rootObject.rates.PLN }}

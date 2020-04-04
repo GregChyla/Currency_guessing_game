@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-demo';
+  title = 'Simple currency guessing game';
+  title2 = 'Using https://api.exchangeratesapi.io';
+  name: string;
 }
